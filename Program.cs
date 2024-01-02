@@ -5,14 +5,27 @@
 // a = 256 => 26
 // a = 891 => 81
 
-Console.Write("Ввелите число");
-int number = Convert.ToInt32(Console.ReadLine());
-// "И"  равен - &&, "или" равен - ||
-if (number >= 100 && number <= 999)
-{
-
-}
-else
-{
-    Console.Write("Число не трехзначное или отриц.");
-}
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// // "&&" = "И": апельсины И яблоки (покупаем и то, и другое)
+// // "||" = "ИЛИ": апельсины ИЛИ яблоки(что-то одно, либо все вместе)
+// if (number >= 100 && number <= 999)
+// {
+// int firstDigit = number / 100; // 275 / 100 = 2
+// int thirdDigit = number % 10; // 275 % 10 = 5
+// int result = firstDigit * 10 + thirdDigit;// 2 * 10+ 5 = 25
+// //$"Текст {firstDigit} текст {firstDigit * 10 + thirdDigit}"
+// Console.WriteLine($"Результат: {number} => {result}");
+// }
+// else
+// {
+// Console.WriteLine("Число не трехзначное ИЛИ отрц.");
+// }
+ 
+ Напишите программу, которая принимает на вход трёхзначное
+число и возводит вторую цифру этого числа в степень, равную
+третьей цифре.
+Примеры
+487 => 8^7 = 2 097 152
+254 => 5^4 = 625
+617 => 1
